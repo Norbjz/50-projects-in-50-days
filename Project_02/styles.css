@@ -48,14 +48,14 @@ body {
   left: 0;
   transform: translateY(-50%);
   height: 4px;
-  width: 25%;
+  width: 0%;
   z-index: -1;
-  transform: 0.4s ease;
+  transition: 0.4s ease;
 }
 
 .circle {
-  background-color: #fff;
-  color: #1f3937;
+  background-color: #1f3937;
+  color: #dde4ec;
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -63,7 +63,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 3px solid #dde4ec;
-  transition: 0.4 ease;
+  transition: 0.4s ease;
 }
 
 .circle.active {
